@@ -1,4 +1,4 @@
-# PyGAM Automate and Audit User Activity Report for Users who have not logged in <90 Days.
+# PyGAM GAM and Python Automation / User Audit for Activity Report for Users who have not logged in <90 Days.
 
 Use GAM and Python to Automate Auditing your Users and Generate that info into a CSV in order to free up Licenses and perge Inactive Accounts.
 
