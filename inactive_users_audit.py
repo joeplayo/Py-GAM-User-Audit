@@ -1,6 +1,8 @@
 import csv
 from datetime import datetime
 
+# in GAM enter 'gam print users fields email,givenName,familyName,lastlogintime > C:\Users\joepl\user_activity.csv'
+
 # Define the number of days for inactivity threshold (90 days)
 INACTIVITY_THRESHOLD_DAYS = 90
 CURRENT_DATE = datetime.now()
@@ -48,4 +50,4 @@ if inactive_users:
 else:
     print(f"No users have been inactive for more than {INACTIVITY_THRESHOLD_DAYS} days.")
 
-# in GAM enter 'gam print users fields email,givenName,familyName,lastlogintime > C:\Users\joepl\user_activity.csv'
+
