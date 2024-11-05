@@ -7,8 +7,9 @@ from datetime import datetime
 INACTIVITY_THRESHOLD_DAYS = 90
 CURRENT_DATE = datetime.now()
 
-# Path to the CSV file exported by GAM
+# Path to the CSV file exported by GAM # Use your own location
 csv_file_path = 'C:\\Users\\joepl\\user_activity.csv'
+
 
 # List to store inactive users
 inactive_users = []
