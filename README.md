@@ -1,5 +1,10 @@
-# PyGAM Generate User Activity Report for Users who have not logged in <90 Days.
+# PyGAM Automate and Audit User Activity Report for Users who have not logged in <90 Days.
+
+GAM installation or GAMX is required for this to work.
+
 Python Scripts to run in Conjunction with Google Admin Manager
+
+Install and provision 
 
 First Open Terminal and run the following Command: 'gam print users fields email,givenName,familyName,lastlogintime > C:\YourName\YourDirectory\user_activity.csv'
 
